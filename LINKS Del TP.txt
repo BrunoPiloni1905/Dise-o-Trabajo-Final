@@ -1,3 +1,5 @@
+
+
 Portafolio Figma:
 
 
@@ -7,3 +9,6 @@ https://www.figma.com/design/12gCft6FXv1Bg1irY75HSm/Portafolio?node-id=11-3&t=Cv
 Netlify
 
 https://portafoliotpfinaldiseo.netlify.app
+
+
+Se agregaron 3 iconos al final del portafolios con los links personales (instagram, Gmail y Git)
