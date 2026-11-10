@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<title>Página no encontrada | Piloni Bruno</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="robots" content="noindex" />
+		<!-- Rutas absolutas (con "/") para que los estilos carguen aunque la URL errónea tenga subcarpetas -->
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<style>
+			html, body { height: 100%; }
+			.error-page {
+				min-height: 100vh;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				text-align: center;
+			}
+			.error-code {
+				font-size: 8em;
+				font-weight: 800;
+				line-height: 1;
+				margin: 0 0 0.1em 0;
+			}
+			.error-page .image.fit {
+				max-width: 12em;
+				margin: 0 auto 2em auto;
+			}
+			@media screen and (max-width: 480px) {
+				.error-code { font-size: 5.5em; }
+			}
+		</style>
+	</head>
+	<body>
+
+		<article class="wrapper style1 error-page">
+			<div class="container">
+				<span class="image fit"><img src="/images/pic00.jpeg" alt="" /></span>
+				<header>
+					<p class="error-code">404</p>
+					<h1>Página <strong>no encontrada</strong>.</h1>
+				</header>
+				<p>Lo sentimos, la dirección que intenta visitar no existe o fue modificada.<br />
+				Puede regresar al inicio y continuar navegando por el portafolio.</p>
+				<a href="/" class="button large">Volver al inicio</a>
+			</div>
+		</article>
+
+	</body>
+</html>
